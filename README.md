@@ -10,3 +10,7 @@ python -m torch.distributed.launch --nproc_per_node=2 \
     code/stageA1_eeg_pretrain_copy.py
 
 # Stage II 
+## Training 
+python stage2_train.py --no_fusion
+## Testing
+stage2_test_new.py
