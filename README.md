@@ -11,6 +11,6 @@ python -m torch.distributed.launch --nproc_per_node=2 \
 
 # Stage II 
 ## Training 
-python stage2_train.py --no_fusion
+python stage2_train.py
 ## Testing
 stage2_test_new.py
